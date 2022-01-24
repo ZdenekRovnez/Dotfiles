@@ -23,3 +23,10 @@ alias mv='mv -i'
 alias rm='rm -i'
 
 
+# Changing "ls" to "exa"
+alias ls='exa -al --color=always --group-directories-first' # my preferred listing
+alias l.='exa -a | egrep "^\."'
+alias ll='exa -l --color=always --group-directories-first'  # long format
+alias lt='exa -aT --color=always --group-directories-first' # tree listing
+
+alias conf-alacritty='vim ~/.config/alacritty/alacritty.yml'

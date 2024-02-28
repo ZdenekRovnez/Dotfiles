@@ -26,7 +26,8 @@ set backup
 
 ## The directory to put unique backup files in.
 ## This folder is not created by default!
-set backupdir "/var/local/nano_backups"
+
+#set backupdir "/var/local/nano_backups"
 
 ## Use bold text instead of reverse video text.
 # set boldtext
